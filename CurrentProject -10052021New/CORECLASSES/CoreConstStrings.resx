@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  <!-- EXCEPTION ERROR MESSAGES -->
+  <!--Use this region for only adding EXCEPTION HANDLING strings-->
+  <!-- Use 'Ex' as prefix for Key names needed for differentiation-->
+  <data name="ExstrAlarmHdr" xml:space="preserve">
+    <value>Alarm Read</value>
+  </data>
+  <data name="ExstrAlarmReadInfo" xml:space="preserve">
+    <value>Error occured during Alarm Read operation</value>
+  </data>
+  <data name="ExstrAlrmHdr" xml:space="preserve">
+    <value>Alarm Save Error</value>
+  </data>
+  <data name="ExstrDMonitorHdr" xml:space="preserve">
+    <value>Data Monitor Error</value>
+  </data>
+  <data name="ExstrEthernetReadInfo" xml:space="preserve">
+    <value>Error occured during Ethernet Settings Read operation</value>
+  </data>
+  <data name="ExstrEV3ReadHdr" xml:space="preserve">
+    <value>Project Header Ev3 Read</value>
+  </data>
+  <data name="ExstrEV3ReadInfo" xml:space="preserve">
+    <value>Error occured during Ev3 Read operation</value>
+  </data>
+  <data name="ExstrExpnHdr" xml:space="preserve">
+    <value>Expansion Info Save Error</value>
+  </data>
+  <data name="ExstrExpnReadHdr" xml:space="preserve">
+    <value>Expansion Info Read</value>
+  </data>
+  <data name="ExstrExpnReadInfo" xml:space="preserve">
+    <value>Error occured during Expansion Read operation</value>
+  </data>
+  <data name="ExstrGlobalHdr" xml:space="preserve">
+    <value>Global Task Save Error</value>
+  </data>
+  <data name="ExGlblKyHdr" xml:space="preserve">
+    <value>Global Key Task Read</value>
+  </data>
+  <data name="ExRdGlblKyInfo" xml:space="preserve">
+    <value>Error occured during Global Key Task Read operation</value>
+  </data>
+  <data name="ExRdGlblKyHdr" xml:space="preserve">
+    <value>Global keys Save Error</value>
+  </data>
+  <data name="ExRdGlblTskHdr" xml:space="preserve">
+    <value>Global Task Read</value>
+  </data>
+  <data name="ExRdGlblTskInfo" xml:space="preserve">
+    <value>Error occured during Global Task Read operation</value>
+  </data>
+  <data name="ExRdLangHdr" xml:space="preserve">
+    <value>Language Read</value>
+  </data>
+  <data name="ExRdLangInfo" xml:space="preserve">
+    <value>Error occured during Language Read operation</value>
+  </data>
+  <data name="ExWrLoggerHdr" xml:space="preserve">
+    <value>Datalogger Write Error</value>
+  </data>
+  <data name="ExRdLoggerHdr" xml:space="preserve">
+    <value>Data Logger Read</value>
+  </data>
+  <data name="ExRdLoggerNotFndInfo" xml:space="preserve">
+    <value>Data Logger Information not found</value>
+  </data>
+  <data name="ExWrModbusHdr" xml:space="preserve">
+    <value>Modbus Slave Save Error</value>
+  </data>
+  <data name="ExRdModbusHdr" xml:space="preserve">
+    <value>Modbus mapping Read</value>
+  </data>
+  <data name="ExRdModbusInfo" xml:space="preserve">
+    <value>Error occured during Modbus mapping Read operation</value>
+  </data>
+  <data name="ExRdMonitorHdr" xml:space="preserve">
+    <value>Data Monitoring Read</value>
+  </data>
+  <data name="ExRdMonitorInfo" xml:space="preserve">
+    <value>Error occured during Data Monitoring Read operation</value>
+  </data>
+  <data name="ExRdNodeBroadInfo" xml:space="preserve">
+    <value>Error occured during Node Broadcast Settings Read operation</value>
+  </data>
+  <data name="ExWrNodeHdr" xml:space="preserve">
+    <value>Project Node Write</value>
+  </data>
+  <data name="ExRdNodeHdr" xml:space="preserve">
+    <value>Project Node Read</value>
+  </data>
+  <data name="ExRdNodeInfoNotFound">
+    <value>Project Node Information not found</value>
+  </data>
+  <data name="ExRdNodeInfo" xml:space="preserve">
+    <value>Error occured during Node Read operation</value>
+  </data>
+  <data name="ExWrNonDwnlHdr" xml:space="preserve">
+    <value>Non downloadable information Save Error</value>
+  </data>
+  <data name="ExWrNonDwnlInfo" xml:space="preserve">
+    <value>Error occured for Non downloadable information</value>
+  </data>
+  <data name="ExRdNonDwnInfo" xml:space="preserve">
+    <value>Error occured during Non Downloadable Read operation</value>
+  </data>
+  <data name="ExRdNonDwnHdr" xml:space="preserve">
+    <value>Non Downloadable Information Read</value>
+  </data>
+  <data name="ExWrPowerHdr" xml:space="preserve">
+    <value>Power On Task Save Error</value>
+  </data>
+  <data name="ExRdPowerOnHdr" xml:space="preserve">
+    <value>Power On Task Read</value>
+  </data>
+  <data name="ExRdPowerOninfo" xml:space="preserve">
+    <value>Error occured during Power On Task Read operation</value>
+  </data>
+  <data name="ExstrProjHdr" xml:space="preserve">
+    <value>Project Header Read</value>
+  </data>
+  <data name="ExRdProjHdrInfo" xml:space="preserve">
+    <value>Error occured during Project Header Read operation</value>
+  </data>
+  <data name="ExRdProjHWInfo" xml:space="preserve">
+    <value>Error occured during HW Info Read operation</value>
+  </data>
+  <data name="ExRdProjVarInfo" xml:space="preserve">
+    <value>Error occured during Project Variable Header Read operation</value>
+  </data>
+  <data name="ExRdProjVarNotFndInfo" xml:space="preserve">
+    <value>Project Variable Header not found</value>
+  </data>
+  <data name="ExRdProjHWNotFndInfo" xml:space="preserve">
+    <value>Project Header HW information not found</value>
+  </data>
+  <data name="ExRdNodeG9SPInfo" xml:space="preserve">
+    <value>Error occured during G9SP Node Settings Read operation</value>
+  </data>
+  <data name="ExRdLoggerGrpInfo" xml:space="preserve">
+    <value>Error occured during Data Logger Group Read operation</value>
+  </data>
+  <data name="ExRdLoggerInfo" xml:space="preserve">
+    <value>Error occured during Data Logger Read operation</value>
+  </data>
+  <data name="ExRdNodeMITInfo" xml:space="preserve">
+    <value>Error occured during Node MIT Settings Read operation</value>
+  </data>
+  <data name="ExRdPrntLoggerInfo" xml:space="preserve">
+    <value>Error occured during Data Logger Printing Read operation</value>
+  </data>
+  <data name="ExRdNodeUSSInfo" xml:space="preserve">
+    <value>Error occured during Siemens USS Node Settings Read operation</value>
+  </data>
+  <data name="ExWrScrnSaveHdr" xml:space="preserve">
+    <value>Screen Save Error</value>
+  </data>
+  <data name="ExWrScrnSaveInfo" xml:space="preserve">
+    <value>Error occured for Save Screen Info</value>
+  </data>
+  <data name="ExRdScrnSaverInfo" xml:space="preserve">
+    <value>Error occured during Screen Saver Settings Read operation</value>
+  </data>
+  <data name="ExRdScrnSvrInfoNotFnd">
+    <value>Screen Saver Settings not found.Default settings are assigned.</value>
+  </data>
+  <data name="ExRdSETag" xml:space="preserve">
+    <value>Error occured during Data Logger SETags Read operation</value>
+  </data>
+  <data name="ExRdSysParHdr" xml:space="preserve">
+    <value>System Parameters Read</value>
+  </data>
+  <data name="ExRdProjHdr" xml:space="preserve">
+    <value>Project Read Error</value>
+  </data>
+  <data name="ExRdProjXML" xml:space="preserve">
+    <value>Error occurred during Project Read operation</value>
+  </data>
+  <data name="ExRdProjHdrXML" xml:space="preserve">
+    <value>Error occurred while reading Project Header</value>
+  </data>
+  <data name="ExRdSysParInfo" xml:space="preserve">
+    <value>Error occured during System Parameters Read operation</value>
+  </data>
+  <data name="ExWrTagHdr" xml:space="preserve">
+    <value>Tag Save Error</value>
+  </data>
+  <data name="ExRdTagInfo" xml:space="preserve">
+    <value>Error occured during Project Tag Database Read operation</value>
+  </data>
+  <data name="ExRdUSDHdr" xml:space="preserve">
+    <value>USD Read</value>
+  </data>
+  <data name="ExRdUSDInfo" xml:space="preserve">
+    <value>Error occured during Universal Serial Driver Read operation</value>
+  </data>
+  <data name="ExWrUseAsDefaultHdr" xml:space="preserve">
+    <value>Use As Default Save Error</value>
+  </data>
+  <data name="ExRdUseAsDefaultHdr" xml:space="preserve">
+    <value>Use As Default Read</value>
+  </data>
+  <data name="ExRdUseAsDefaultInfo" xml:space="preserve">
+    <value>Error occured during Use As Default Read operation</value>
+  </data>
+  <data name="ExWrUSDHdr" xml:space="preserve">
+    <value>Univarsal serial driver Save Error</value>
+  </data>
+  <data name="ExWrWebScrnHdr" xml:space="preserve">
+    <value>Web Screen Info Save Error</value>
+  </data>
+  <data name="ExRdWebScrnHdr" xml:space="preserve">
+    <value>Web Screen Read</value>
+  </data>
+  <data name="ExRdWebScrnInfo" xml:space="preserve">
+    <value>Error occured during Web Screen Read operation</value>
+  </data>
+  <data name="ExstrWriteAlrmInfo" xml:space="preserve">
+    <value>Error occured for Alarm information</value>
+  </data>
+  <data name="ExstrWriteDMonitorInfo" xml:space="preserve">
+    <value>Error occured for Data Monitoring information</value>
+  </data>
+  <data name="ExstrWriteExpnInfo" xml:space="preserve">
+    <value>Error occured for Expansion Information</value>
+  </data>
+  <data name="ExstrWrGlblTskInfo" xml:space="preserve">
+    <value>Error occured for Global Task information</value>
+  </data>
+  <data name="ExstrWrGlblKyInfo" xml:space="preserve">
+    <value>Error occured for Global Keys information</value>
+  </data>
+  <data name="ExWrLangHdr" xml:space="preserve">
+    <value>Language Info Save Error</value>
+  </data>
+  <data name="ExWrLangInfo" xml:space="preserve">
+    <value>Error occured for Language Information</value>
+  </data>
+  <data name="ExWrLoggerInfo" xml:space="preserve">
+    <value>Error occured for datalogger information</value>
+  </data>
+  <data name="ExWrModbusInfo" xml:space="preserve">
+    <value>Error occured for Modbus Slave Information</value>
+  </data>
+  <data name="ExWrNodeInfo" xml:space="preserve">
+    <value>Error occured for Information of Node </value>
+  </data>
+  <data name="ExWrPowerOnInfo" xml:space="preserve">
+    <value>Error occured for Power On task information</value>
+  </data>
+  <data name="ExWrPrntLoggerInfo" xml:space="preserve">
+    <value>Error occured for datalogger Printing information</value>
+  </data>
+  <data name="ExWrSELoggerInfo" xml:space="preserve">
+    <value>Error occured for datalogger Start End Time Tags</value>
+  </data>
+  <data name="ExWrTagInfo" xml:space="preserve">
+    <value>Error occured for Tag Information</value>
+  </data>
+  <data name="ExWrUseAsDefaultInfo" xml:space="preserve">
+    <value>Error occured for Use As Default Information</value>
+  </data>
+  <data name="ExWrUSDInfo" xml:space="preserve">
+    <value>Error occured for USS driver Information</value>
+  </data>
+  <data name="ExWrWebScrnInfo" xml:space="preserve">
+    <value>Error occured for Web Screen Information</value>
+  </data>
+  <data name="ExWrProjXMLHdr" xml:space="preserve">
+    <value>Project Save Error</value>
+  </data>
+  <data name="ExWrProjXML" xml:space="preserve">
+    <value>An unexpected error has occurred while saving project</value>
+  </data>
+  <data name="ExWrProjXMLHdr" xml:space="preserve">
+    <value>Project Header Information Save Error</value>
+  </data>
+  <data name="ExWrProjXMLInfo" xml:space="preserve">
+    <value>An unexpected error has occurred while saving project header information</value>
+  </data>
+  <data name="ExWrScrnObjGrpHdr" xml:space="preserve">
+    <value>Screen Save Error for Group</value>
+  </data>
+  <data name="ExWrScrnKyTskHdr" xml:space="preserve">
+    <value>Screen Keys Task Save Error</value>
+  </data>
+  <data name="ExWrScrnBSTskHdr" xml:space="preserve">
+    <value>Screen Task Save Error (BS)</value>
+  </data>
+  <data name="ExWrScrnWSTskHdr" xml:space="preserve">
+    <value>Screen Task Save Error (WS)</value>
+  </data>
+  <data name="ExWrScrnAHTskHdr" xml:space="preserve">
+    <value>Screen Task Save Error (AH)</value>
+  </data>
+  <data name="ExWrScrnObjTskHdr" xml:space="preserve">
+    <value>Screen Save Error for object task</value>
+  </data>
+  <data name="ExWrScrnObjGrpTskHdr" xml:space="preserve">
+    <value>Screen Save Error for object task (Group)</value>
+  </data>
+  <data name="ExWrScrnInfo" xml:space="preserve">
+    <value>Write Screen specific information</value>
+  </data>
+  <data name="ExDwPicFolderDel" xml:space="preserve">
+    <value>Write Screen specific information</value>
+  </data>
+  <data name="ExDwPzpFolderDel" xml:space="preserve">
+    <value>Pzp file delete</value>
+  </data>
+  <data name="ExDwBmpFolderDel" xml:space="preserve">
+    <value>BMP file delete</value>
+  </data>
+  <data name="ExDwAppHdr" xml:space="preserve">
+    <value>Dwnload Error</value>
+  </data>
+  <data name="ExDwApplInfo" xml:space="preserve">
+    <value>Error occured while downloading application</value>
+  </data>
+  <data name="ExRdBinApplicationHdr" xml:space="preserve">
+    <value>Project ReadFile Error</value>
+  </data>
+  <data name="ExRdBinApplicationInfo" xml:space="preserve">
+    <value>Error occurred during Project Read operation</value>
+  </data>
+  <data name="ExRdTagCorruptInfo" xml:space="preserve">
+    <value>Project Tag Database found corrupted</value>
+  </data>
+  <data name="ExRdTagHdr" xml:space="preserve">
+    <value>Project Tag Database Read Error</value>
+  </data>
+  <data name="ExRdTagNotFndInfo" xml:space="preserve">
+    <value>Project Tag Database not found</value>
+  </data>
+  <data name="ExGlobalError" xml:space="preserve">
+    <value>An error has occured in </value>
+  </data>
+  <data name="ExGlobalErrorHdr" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExExportAlarm" xml:space="preserve">
+    <value>exporting alarm</value>
+  </data>
+  <data name="ExFileNotFound" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="ExCommunicationError" xml:space="preserve">
+    <value>An error has occured while communicating </value>
+  </data>
+  <data name="ExIconLoadError" xml:space="preserve">
+    <value>Error ocurred while loading icon</value>
+  </data>
+  <!-- Parag_AlarmMessageChanges -->
+  <data name="ExImportAlarm" xml:space="preserve">
+    <value>importing alarm</value>
+  </data>
+  <data name="ExFileIsUsedByAnotherProcessAlarmException" xml:space="preserve">
+    <value>File is being used by another process</value>
+  </data>
+  <!-- END Parag_AlarmMessageChanges -->
+  <!-- SS_FTP-->
+  <data name="ExRdFTPInfo" xml:space="preserve">
+    <value>Error occured during FTP Read operation</value>
+  </data>
+  <!-- SS_FTP-->
+  <!-- Use 'Ex' as prefix for Key names needed for differentiation-->
+  <!--Use this region for only adding EXCEPTION HANDLING strings-->
+  <!-- END EXCEPTION ERROR MESSAGES -->
+
+  <!-- WARNING MESSAGES-->
+
+  <!-- END WARNING MESSAGES-->
+
+  <!-- COMMON APPLICATION STRINGS -->
+  <data name="strGotoScreen">
+    <value>Goto Screen</value>
+  </data>
+  <data name="strPreviousScreen">
+    <value>Previous Screen</value>
+  </data>
+  <data name="strNextScreen">
+    <value>Next Screen</value>
+  </data>
+  <data name="strWriteValueToTag">
+    <value>Write Value to Tag</value>
+  </data>
+  <data name="strAddAConstantValueToATag">
+    <value>Add a Constant Value to a Tag</value>
+  </data>
+  <data name="strSubtractAConstantValueFromATag">
+    <value>Subtract a Constant Value from a Tag</value>
+  </data>
+  <data name="strAddTagBToTagA">
+    <value>Add Tag B to Tag A</value>
+  </data>
+  <data name="strSubtractTagBFromTagA">
+    <value>Subtract Tag B from Tag A</value>
+  </data>
+  <data name="strTurnBitON">
+    <value>Turn Bit ON</value>
+  </data>
+  <data name="strTurnBitOFF">
+    <value>Turn Bit OFF</value>
+  </data>
+  <data name="strToggleBit">
+    <value>Toggle Bit</value>
+  </data>
+  <data name="strCopyTagBToTagA">
+    <value>Copy Tag B to Tag A</value>
+  </data>
+  <data name="strSwapTagAAndTagB">
+    <value>Swap Tag A and Tag B</value>
+  </data>
+  <data name="strCopyTagToSTR">
+    <value>Switch Screen From Tag</value>
+  </data>
+  <data name="strCopyTagToLED">
+    <value>Copy Tag to LED</value>
+  </data>
+  <data name="strCopyPrizmBlockToPrizmOrPLCBlock">
+    <value>Copy HMI Block to HMI/PLC Block</value>
+  </data>
+  <data name="strCopyPLCToPrizm">
+    <value>Copy HMI/PLC Block to HMI Block</value>
+  </data>
+  <data name="strCopyRTCToPLC">
+    <value>Copy RTC To PLC Block</value>
+  </data>
+  <data name="strSetRTC">
+    <value>Set RTC</value>
+  </data>
+  <data name="strPrintData">
+    <value>Print Data</value>
+  </data>
+  <data name="strKeysSpecificTask">
+    <value>Key's Specific Task</value>
+  </data>
+  <data name="strUSBDataLogUpload">
+    <value>USB Data Log Upload</value>
+  </data>
+  <data name="strClearLogMemory">
+    <value>Clear Log Memory</value>
+  </data>
+  <data name="strRefreshTrendWindow">
+    <value>Refresh Trend Window</value>
+  </data>
+  <data name="strShowEthernetConfigurationScreen">
+    <value>Show Ethernet Configuration Screen</value>
+  </data>
+  <data name="strStartLogger">
+    <value>Start Logger</value>
+  </data>
+  <data name="strStartLoggerOfGroupNo">
+    <value>Start Logger Of Group No</value>
+  </data>
+  <data name="strStopLogger">
+    <value>Stop Logger</value>
+  </data>
+  <data name="strStopLoggerOfGroupNo">
+    <value>Stop Logger Of Group No</value>
+  </data>
+  <data name="strDelay">
+    <value>Delay</value>
+  </data>
+  <data name="strWait">
+    <value>Wait While</value>
+  </data>
+  <data name="strExecutePLCLogicBlock">
+    <value>Execute PLC Logic Block</value>
+  </data>
+  <data name="strGoToPopUpScreen">
+    <value>Goto Popup Screen</value>
+  </data>
+  <data name="strUSBHostUpload">
+    <value>USB Host Upload</value>
+  </data>
+  <!--SS_SDCardUpload-->
+  <data name="strSDCardUpload">
+  <value>SD Card Upload</value>
+  </data>
+  <!--SS_SDCardUpload-->
+  <!-- SS_FTP changes must also reflect in cmndlgstrings resx-->
+  <data name ="strEnbl">
+    <value>FTP Enable Bit</value>
+  </data>
+  <data name ="strRsnd">
+    <value>File Resend Bit</value>
+  </data>
+  <data name ="strGrpNmbr">
+    <value>Group Number</value>
+  </data>
+  <data name ="strSrcMedia">
+    <value>Source Media</value>
+  </data>
+  <data name ="strDestMedia">
+    <value>Destination Media</value>
+  </data>
+  <data name ="strAPN">
+    <value>APN</value>
+  </data>
+  <data name ="strUnm">
+    <value>Username</value>
+  </data>
+  <data name ="strPwd">
+    <value>Password</value>
+  </data>
+  <data name ="strSrvAddr">
+    <value>Server Address</value>
+  </data>
+  <data name ="strDestPath">
+    <value>Destination Path</value>
+  </data>
+  <data name ="strSendFileAtEvery">
+    <value>Send File At Every</value>
+  </data>
+  <data name ="strMediaSt">
+    <value>Media Status</value>
+  </data>
+  <data name ="strNetConnSt">
+    <value>Net Connection Status</value>
+  </data>
+  <data name ="strFTPSt">
+    <value>FTP Status</value>
+  </data>
+  <data name ="strFlSndSt">
+    <value>File Send Status</value>
+  </data>
+  <data name ="strCommSt">
+    <value>Communication Status</value>
+  </data>
+  <!-- SS_FTP-->
+  <!--#region GWY00_Change-->
+  <data name="strErrWrite1" xml:space="preserve">
+    <value>Error occured during saving of Gateway block information</value>
+  </data>
+  <data name="strErrWrite2" xml:space="preserve">
+    <value>GWY Error</value>
+  </data>
+  <data name="strErrWrite3" xml:space="preserve">
+    <value>Error occured during reading of Gateway block information</value>
+  </data>
+  <data name="strErrWrite4" xml:space="preserve">
+    <value>Error occured during saving of Gateway Error bit information</value>
+  </data>
+  <data name="strErrWrite5" xml:space="preserve">
+    <value>Error occured during reading of Gateway Error Bit information</value>
+  </data>
+  <data name="strErrWrite6" xml:space="preserve">
+    <value>Error occured during saving of Gateway Control Word information</value>
+  </data>
+  <data name="strErrWrite7" xml:space="preserve">
+    <value>Error occured during reading of Gateway Control Word information</value>
+  </data>
+  <!--#endregion-->
+  <!-- END COMMON APPLICATION STRINGS -->
+  <!--#region SD_Card_Functionality Vijay-->
+  <data name="strUSBDataLogUpload">
+    <value>Data Log Upload</value>
+  </data>
+  <!--#endregion-->
+  <!--#region Import/Export_Modification Vijay-->
+  <data name="strCom1">
+    <value>Com1</value>
+  </data>
+  <data name="strCom2">
+    <value>Com2</value>
+  </data>
+  <data name="strEthernet">
+    <value>Ethernet</value>
+  </data>
+  <data name="strNodeCom1">
+    <value>_Com1_Node</value>
+  </data>
+  <data name="strNodeCom2">
+    <value>_Com2_Node</value>
+  </data>
+  <data name="strNodeEthernet">
+    <value>_Ethernet_Node</value>
+  </data>
+  <!--#endregion-->
+  <!--#region Import_Tasks-->
+  <data name="strErrorImportGTasks">
+    <value>Error in importing Global tasks.</value>
+  </data>
+  <data name="strErrorImportPTasks">
+    <value>Error in importing Power On tasks.</value>
+  </data>
+  <data name="strErrorImportScreenBSHTasks">
+    <value>Error in importing screen before showing tasks.</value>
+  </data>
+  <data name="strErrorImportScreenWSHTasks">
+    <value>Error in importing screen while showing tasks.</value>
+  </data>
+  <data name="strErrorImportScreenAHTasks">
+    <value>Error in importing screen after hiding tasks.</value>
+  </data>
+  <data name="strImportTasks">
+    <value>Import Tasks</value>
+  </data>
+  <data name="strErrorImportCopyBlockTasks">
+    <value>Destination project has no PLC tags defined, hence can not import Copy HMI/PLC TO HMI, Copy RTC to PLC tasks from source project.</value>
+  </data>
+  <data name="strErrorBSH">
+    <value>Error occured during import for before showing tasks for screen number: </value>
+  </data>
+  <data name="strErrorWSH">
+    <value>Error occured during import for while showing tasks for screen number: </value>
+  </data>
+  <data name="strErrorAH">
+    <value>Error occured during import for after hiding tasks for screen number: </value>
+  </data>
+  <!--#endregion-->
+  <!--#region Data_Logging_Modification_1 Vijay-->
+  <data name="strStartExternalLogger">
+    <value>Start External Logger</value>
+  </data>
+  <data name="strStartExternalLoggerOfGroupNo">
+    <value>Start External Logger Of Group No</value>
+  </data>
+  <data name="strStopExternalLogger">
+    <value>Stop External Logger</value>
+  </data>
+  <data name="strStopExternalLoggerOfGroupNo">
+    <value>Stop External Logger Of Group No</value>
+  </data>
+  <!--#endregion-->
+  <!--SS_TagGroup-->
+  <data name="ExRdTagGrpCorruptInfo">
+    <value>Project Tag Group information found corrupted</value>
+  </data>
+  <data name="ExRdTagGrpBlankInfo">
+    <value>Project Tag Group information not found</value>
+  </data>
+  <data name="ExRdTagGrpHdr">
+    <value>Tag Group Read Error</value>
+  </data>
+  <data name="ExWrTagGrpInfo">
+    <value>Error occured for Tag Group Information</value>
+  </data>
+  <data name="ExWrTagGrpHdr">
+    <value>Tag Group Information Save Error</value>
+  </data>
+  <!--SS_TagGroup-->
+</root>
